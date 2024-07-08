@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <h1>Testimonials</h1>
+        
+        <div class="container">
+            <div class="indicator">
+                <span class="btn active" ></span>
+                <span class="btn"></span>
+                <span class="btn"></span>
+                <span class="btn"></span>
+            </div>
+            <div class="testimonial">
+        <div class="slide-row" id="slide">
+            <div class="slide-col">
+                <div class="user-text">
+                 <p> Sarah samona is american internet entreprenuar <br>
+                    and media proprietor, nad investor.She is the <br>
+                    founder of multinational technology company Zara
+                 </p>  
+                 <h3>Sarah</h3>  
+                 <p>Zara Inc.</p>         
+                </div>
+                <div class="user-img">
+                    <img src="images/author1.jpeg">
+                </div>
+            </div>
+
+            <div class="slide-col">
+                <div class="user-text">
+                 <p> Jacob steliyan is american internet entreprenuar<br> 
+                    and media proprietor, nad investor.She is the <br>
+                    founder of multinational technology company Zara
+                 </p>  
+                 <h3>Jacob</h3>  
+                 <p>Private Tele Commu.</p>         
+                </div>
+                <div class="user-img">
+                    <img src="images/aurhor 2.jpeg">
+                </div>
+            </div>
+
+
+            <div class="slide-col">
+                <div class="user-text">
+                 <p> Jennifer Jilona is american internet entreprenuar <br>
+                    and media proprietor, nad investor.She is the <br>
+                    founder of multinational technology company Zara
+                 </p>  
+                 <h3>Jennifer </h3>  
+                 <p>PowerTech Inc.</p>         
+                </div>
+                <div class="user-img">
+                    <img src="images/author3.jpeg">
+                </div>
+            </div>
+
+
+            <div class="slide-col">
+                <div class="user-text">
+                 <p> Samanth sereyan is american internet entreprenuar <br>
+                    and media proprietor, nad investor.She is the <br>
+                    founder of multinational technology company Zara
+                 </p>  
+                 <h3>Samanth</h3>  
+                 <p>Author.</p>         
+                </div>
+                <div class="user-img">
+                    <img src="images/author4.jpeg">
+                </div>
+            </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var btn=document.getElementsByClassName("btn");
+        var slide=document.getElementById("slide");
+
+        btn[0].onclick= function(){
+            slide.style.transform="translateX(0px)";
+        }
+
+        btn[1].onclick= function(){
+            slide.style.transform="translateX(-800px)";
+        }
+
+        btn[2].onclick= function(){
+            slide.style.transform="translateX(-1600px)";
+        }
+        btn[3].onclick= function(){
+            slide.style.transform="translateX(-2400px)";
+        }
+    </script>
+</body>
+</html>
